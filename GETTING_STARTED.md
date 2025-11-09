@@ -346,49 +346,6 @@ Try asking the same question in different ways:
 
 ---
 
-## 🎬 Demo Preparation (For Hackathon)
-
-### Before the Demo
-
-1. **Test 5 questions** beforehand
-2. **Screenshot good results** as backup
-3. **Practice your pitch** (2 minutes)
-4. **Charge your laptop**
-5. **Test internet connection**
-
-### During the Demo
-
-1. **Opening** (30 sec): Explain the concept
-2. **Live Demo** (60 sec): Ask a question, show responses
-3. **Technical** (30 sec): Highlight LangGraph + RAG
-4. **Closing** (30 sec): Impact and future
-
-### Backup Plan
-
-If API fails:
-- Show pre-generated responses
-- Demo RAG search only
-- Walk through architecture
-- Show the code
-
----
-
-## ✅ Final Checklist
-
-Before your demo:
-
-- [ ] API key configured
-- [ ] Test script passes
-- [ ] Web app launches
-- [ ] 5 questions tested
-- [ ] Screenshots taken
-- [ ] Demo script practiced
-- [ ] Laptop charged
-- [ ] Internet working
-- [ ] Backup plan ready
-
----
-
 ## 🎉 You're Ready!
 
 Your Divine Dialogue system is fully operational and ready for:
@@ -437,4 +394,3 @@ streamlit run streamlit_app.py
 python build_rag_database.py
 ```
 
-**Your journey begins now!** 🌟
