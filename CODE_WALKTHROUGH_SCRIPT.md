@@ -1,5 +1,4 @@
-# 🎯 DIVINE DIALOGUE - CODE WALKTHROUGH SCRIPT
-
+# 🎯 DIVINE DIALOGUE - CODE WALKTHROUGH SCRIP
 **For Hackathon Judges - 10-13 minute presentation**
 
 ---
