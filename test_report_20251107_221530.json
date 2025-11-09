@@ -1,0 +1,317 @@
+{
+  "timestamp": "20251107_221530",
+  "summary": {
+    "total": 61,
+    "passed": 59,
+    "failed": 1,
+    "warnings": 1,
+    "status": "NEEDS ATTENTION"
+  },
+  "tests": [
+    {
+      "name": "Dependency: FAISS",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "Dependency: Sentence Transformers",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "Dependency: LangGraph",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "Dependency: OpenAI Client",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "Dependency: Streamlit",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "Dependency: Python Dotenv",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "File: LangGraph Backend",
+      "status": "PASS",
+      "message": "divine_dialogue_langgraph.py"
+    },
+    {
+      "name": "File: Enhanced Streamlit App",
+      "status": "PASS",
+      "message": "app.py"
+    },
+    {
+      "name": "File: Original Streamlit App",
+      "status": "PASS",
+      "message": "streamlit_app.py"
+    },
+    {
+      "name": "File: RAG Builder",
+      "status": "PASS",
+      "message": "build_rag_database.py"
+    },
+    {
+      "name": "File: Dependencies",
+      "status": "PASS",
+      "message": "requirements.txt"
+    },
+    {
+      "name": "File: Environment Config",
+      "status": "PASS",
+      "message": ".env"
+    },
+    {
+      "name": "File: Documentation",
+      "status": "PASS",
+      "message": "README.md"
+    },
+    {
+      "name": "RAG Database Directory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  RAG File: index.faiss",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  RAG File: texts.json",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  RAG File: metadatas.json",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "FAISS Index Loads",
+      "status": "PASS",
+      "message": "Loaded 4903 vectors"
+    },
+    {
+      "name": "Texts JSON Loads",
+      "status": "PASS",
+      "message": "Loaded 4903 texts"
+    },
+    {
+      "name": "Metadata JSON Loads",
+      "status": "PASS",
+      "message": "Loaded 4903 metadata entries"
+    },
+    {
+      "name": "Vector/Text/Metadata Count Match",
+      "status": "PASS",
+      "message": "All have 4903 entries"
+    },
+    {
+      "name": "Embedding Model Loads",
+      "status": "PASS",
+      "message": "Model loaded successfully"
+    },
+    {
+      "name": "Retrieve Krishna verses",
+      "status": "WARN",
+      "message": "Only found 0 verses"
+    },
+    {
+      "name": "Retrieve Buddha verses",
+      "status": "PASS",
+      "message": "Found 3 verses"
+    },
+    {
+      "name": "Retrieve Jesus verses",
+      "status": "PASS",
+      "message": "Found 3 verses"
+    },
+    {
+      "name": "Metadata filter: Krishna",
+      "status": "PASS",
+      "message": "701 verses (expected 701)"
+    },
+    {
+      "name": "Metadata filter: Buddha",
+      "status": "PASS",
+      "message": "423 verses (expected 423)"
+    },
+    {
+      "name": "Metadata filter: Jesus",
+      "status": "PASS",
+      "message": "3779 verses (expected 3779)"
+    },
+    {
+      "name": "Metadata Structure",
+      "status": "PASS",
+      "message": "All required fields present"
+    },
+    {
+      "name": "API Key Configuration",
+      "status": "FAIL",
+      "message": "OPENROUTER_API_KEY not set"
+    },
+    {
+      "name": "Streamlit Installed",
+      "status": "PASS",
+      "message": "Version 1.50.0"
+    },
+    {
+      "name": "App File: app.py",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py Size",
+      "status": "PASS",
+      "message": "20.4 KB"
+    },
+    {
+      "name": "  app.py: Page Configuration",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Text Input",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Button",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Backend Integration",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "App File: streamlit_app.py",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py Size",
+      "status": "PASS",
+      "message": "10.0 KB"
+    },
+    {
+      "name": "  streamlit_app.py: Page Configuration",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Text Input",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Button",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Backend Integration",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Try-Except Blocks",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Exception Handling",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Error Display",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Warning Display",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Try-Except Blocks",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Exception Handling",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Error Display",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Warning Display",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Headers",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Markdown/Styling",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Loading Indicators",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Expandable Sections",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  app.py: Download Functionality",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Headers",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Markdown/Styling",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Loading Indicators",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Expandable Sections",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "name": "  streamlit_app.py: Download Functionality",
+      "status": "PASS",
+      "message": ""
+    }
+  ]
+}

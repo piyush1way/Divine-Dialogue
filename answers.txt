@@ -1,0 +1,115 @@
+================================================================================
+DIVINE DIALOGUE - HACKATHON SUBMISSION ANSWERS
+================================================================================
+
+1. WHAT PROBLEM ARE YOU SOLVING? (200 words or less)
+================================================================================
+
+Millions of people face spiritual questions, mental health challenges, and 
+existential crises but lack access to personalized guidance. Traditional 
+solutions are fragmented: spiritual teachers are inaccessible, religious texts 
+are overwhelming (thousands of verses), and generic advice doesn't address 
+individual situations.
+
+Key problems:
+- Students face depression/anxiety but can't afford therapy or spiritual 
+  counseling
+- People want wisdom from multiple traditions but don't know where to start
+- Sacred texts contain 4,903+ verses—finding relevant guidance is nearly 
+  impossible
+- Generic spiritual advice doesn't account for personal context (academic 
+  pressure, family expectations, career struggles)
+- Single-perspective guidance misses universal truths across traditions
+
+Our problem: How do we provide authentic, personalized, multi-perspective 
+spiritual guidance that's accessible, fast, and grounded in real teachings?
+
+The impact: Mental health crisis (1 in 4 people affected), spiritual 
+disconnection, lack of accessible wisdom-based counseling. We're solving the 
+gap between ancient wisdom and modern accessibility.
+
+================================================================================
+
+2. WHO IS/ARE YOUR USERS/CUSTOMERS?
+================================================================================
+
+PRIMARY USERS:
+
+1. Students (Ages 18-25)
+   - Students facing academic pressure
+   - College students dealing with anxiety, depression, career uncertainty
+   - Need: Personalized guidance for academic stress, family expectations, 
+     motivation loss
+
+2. Young Professionals (Ages 25-35)
+   - Career transitions, work-life balance, purpose seeking
+   - Need: Wisdom for professional challenges, relationship issues, life 
+     direction
+
+3. Spiritual Seekers (All Ages)
+   - Interested in comparative religion/spirituality
+   - Want to understand universal truths across traditions
+   - Need: Multi-perspective guidance, authentic teachings
+
+4. People Facing Life Challenges (All Ages)
+   - Depression, anxiety, grief, relationship problems
+   - Can't afford therapy or spiritual counseling
+   - Need: Accessible, free, personalized guidance
+
+SECONDARY USERS:
+
+- Mental health professionals (reference tool)
+- Religious educators (teaching tool)
+- Researchers (comparative religion studies)
+
+TARGET MARKET SIZE:
+- 1.2 billion people globally identify as spiritual but not religious
+- 300+ million students worldwide facing academic pressure
+- Mental health crisis affects 1 in 4 people globally
+
+================================================================================
+
+3. WHAT IS YOUR SOLUTION TO THE ABOVE PROBLEM? (200 words or fewer)
+================================================================================
+
+Divine Dialogue is a multi-agent AI system that provides personalized 
+spiritual guidance from three AI mentors (Krishna, Buddha, Jesus) in a 
+coordinated dialogue.
+
+HOW IT WORKS:
+
+1. User enters question + personal background (e.g., "M.Tech student at IIT 
+   struggling with anxiety")
+
+2. RAG System searches 4,903 authentic verses from sacred texts (Bhagavad 
+   Gita, Dhammapada, Gospels) using semantic search
+
+3. Three AI mentors respond sequentially:
+   - Krishna speaks first 
+   - Buddha builds on it 
+   - Jesus adds love/faith perspective
+   - Each cites real verses with similarity scores
+
+4. Moderator synthesizes all three into a personalized action plan:
+   - TODAY actions (immediate steps)
+   - THIS WEEK habits
+   - ONGOING practices
+   - Crisis techniques for when overwhelmed
+
+KEY INNOVATIONS:
+
+ Multi-agent orchestration (not just RAG) - mentors coordinate, not compete
+ Authentic citations - real verses, not AI-generated
+ Personalization - user background shapes all responses
+ Voice input - accessible for all users
+ Fast (10-15 seconds) - Groq API enables real-time responses
+ Free - uses free-tier APIs (Groq, FAISS, Web Speech API)
+
+TECH STACK: LangGraph (orchestration) + FAISS (RAG) + Groq LLM + Streamlit 
+(UI) + Web Speech API (voice)
+
+RESULT: Accessible, personalized, multi-perspective spiritual guidance in 
+seconds, grounded in authentic teachings from three major traditions.
+
+================================================================================
+

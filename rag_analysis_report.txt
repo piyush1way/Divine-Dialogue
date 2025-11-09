@@ -1,0 +1,28 @@
+======================================================================
+DIVINE DIALOGUE RAG DATABASE - ANALYSIS REPORT
+======================================================================
+
+Generated: 2025-11-07 20:51:21
+Vector Store Used: FAISS
+Database Location: ./sacred_texts_rag_faiss/
+
+CORPUS STATISTICS:
+  Krishna (Bhagavad Gita):    701 verses
+  Buddha (Dhammapada):        423 verses
+  Jesus (Gospels):           3779 verses
+  ────────────────────────────────────────
+  TOTAL:                     4903 verses
+
+SEMANTIC SEARCH TEST RESULTS:
+
+  Query: "How do I find inner peace and calm my mind?"
+  Mentor: Buddha
+  Top Match: Verse 96
+  Similarity: 0.512
+
+  Query: "How should I love and forgive others?"
+  Mentor: Jesus
+  Top Match: Luke 11:4
+  Similarity: 0.501
+
+======================================================================
